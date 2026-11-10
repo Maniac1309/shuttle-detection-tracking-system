@@ -106,7 +106,6 @@ def track(file: UploadFile = File(...)):
 
     mp4_file = os.path.join(save_dir, "tracked_video.mp4")
 
-# Inside your @app.post("/track") function, replace the cmd block with:
     ffmpeg_path = imageio_ffmpeg.get_ffmpeg_exe()
 
     cmd = [
