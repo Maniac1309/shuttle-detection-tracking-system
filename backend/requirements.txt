@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-multipart
+ultralytics
+opencv-python-headless
+pillow
+lap>=0.5.12
